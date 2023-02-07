@@ -1,0 +1,83 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+body{
+    margin: 0px;
+    font-size:16px;
+}
+
+
+.header-image{
+    height: 30hw;
+    width: 100vw;
+    margin-bottom: 40px;
+    color: transparent;
+}
+
+.header{
+    position:relative;
+}
+.h1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 40vw;
+    font-size: 5em;   
+}
+
+.grandma-recipe{
+    width: 60vw;
+    margin-left: 20vw;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.recipe-info{
+    width: 40vw;
+    margin-left: 30vw;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.line{
+    width: 80%;
+    height: 2px;
+    color: black;
+    background-color: #8E8E8E;
+    margin-bottom: 50px;
+}
+
+.subtitle{
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.content{
+    margin-left: 10%;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.guion:before{
+    content: "-";
+    position: relative;
+    left: -5px;
+}
+
+.guion{
+    text-indent: -5px;
+    font-size: 1.2em;
+}
+
+.content1{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+
+.number-list{
+    width: 90%;
+    text-align:justify;
+    font-size: 1.2em;
+}
